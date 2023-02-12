@@ -1,0 +1,612 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredoka+One&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #6994CF;
+    border-bottom-left-radius:14px ;
+    border-bottom-right-radius:15px ;
+}
+ul{
+    display: flex;
+}
+ul a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+    font-size: 15px;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+    margin-right: 60px;
+    margin-top: 12px;
+    text-decoration:#6994CF;
+    color: black;
+}
+.nav-title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    margin-left: 60px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+.home{
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: -20px;
+}
+.lapisan-dua{
+    margin-top: -150px;
+}
+.tulisan{
+    margin-top: 80px;
+}
+.ajakan{
+    font-family: 'Fredoka One', cursive;
+    color: #DEDEDE;
+}
+.with{
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+    color: #DEDEDE;
+}
+.pengertian{
+    font-size: 14px;
+    margin-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1e1e1e;
+}
+.bioplastik{
+    font-family: 'Fredoka One', cursive;
+    font-size: 43px;
+}
+.gambar-paus img{
+    width: 500px;
+    height: 500px;
+}
+
+.tulisan button{
+    font-family: 'Bebas Neue', cursive;
+    width: 80px;
+    background-color: #6994CF;
+    padding: 8px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 17px;
+    box-shadow:  4px 4px 14px #b3b3b3,
+             -3px -3px 14px #ffffff;
+}
+.tulisan button:hover{
+    cursor: pointer;
+    background-color:#8aa7cf;
+    color: #3d3d3e;
+    
+}
+.tulisan1{
+    background-color:#6994CF;
+    margin-top: -10px;
+}
+.tulisan1 h5{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Fredoka One',cursive;
+    margin-bottom: 10px;
+   
+}
+.tulisan1 .definisi-bioplastik{
+    font-size: 17px;
+    text-align: center;
+    margin: 20px;
+    margin-right: 60px;
+    margin-left: 60px;
+    font-family: 'Fredoka One',cursive;
+    color: #202020;
+}
+.gelombang-bawah{
+    margin-top: -21px;
+}
+hr {
+    width: 100px;
+    border: 4px solid white;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .kelebihan-kekurangan{
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .kelebihan,.kekurangan{
+    max-width: 60%;
+  }
+  .judul-kelebihan,.judul-kekurangan{
+    font-size: 20px;
+    font-family: 'Fredoka One',cursive;
+    margin-bottom: 7px;
+    background-color: #6994CF;
+    padding: 10px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+
+  .isi-kelebihan,.isi-kekurangan{
+    font-size: 12px;
+    list-style: none;
+    font-family: 'Fredoka One',cursive;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, .1);
+    padding: 5px;
+  }
+  .isi-kelebihan li,.isi-kekurangan li{
+    margin-top: 5px;
+  }
+  .kelebihan{
+    margin-bottom: 20px;
+  }
+  .isi-kelebihan li span,.isi-kekurangan li span{
+    width: 20px;
+    height: 20px;
+    background-color: #6994CF;
+    line-height: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+  }
+
+.kekurangan{
+    float: right;
+}  
+.manfaat{
+    display: flex;
+    font-family: 'Fredoka One',cursive;
+    background-color:#6994CF ;
+    margin-top: -8px;
+    padding: 15px;
+    padding-left: 60px;
+}
+.manfaat .judul-manfaat{
+    max-width: 40%;
+    font-size: 25px;
+    margin-right: 10px;
+}
+.manfaat hr{
+    width: 40px;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 5px;
+}
+.manfaat .judul-manfaat span{
+    font-size: 25px;
+}
+
+.manfaat .isi-manfaat{
+    padding: 10px;
+    margin-left: 40px;
+}
+.manfaat .isi-manfaat li{
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+.manfaat .isi-manfaat li span{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    margin-right: 3px;
+}
+.isi-team{
+    display: flex;
+    justify-content: center;
+}
+.judul-team{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family:'Fredoka One',cursive ;
+}
+
+.gambar-team img{
+    border-radius: 50%;
+    max-width: 100%;
+    border: 2px solid #6994CF;
+}
+
+.nama-team{
+    text-align: center;
+    margin-top: 8px;
+    font-family:'Fredoka One',cursive ;
+    font-size: 17px;
+}
+
+.kotak-team{
+    max-width: 15%;
+    margin: 16px;
+}
+
+.team hr{
+    width: 80px;
+    border: 2px solid #6994CF;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.logo-instagram img{
+    width: 25px;
+    margin-top: 10px;
+}
+.logo-instagram{
+    text-align: center;
+}
+.galeri{
+    background-color: #6994CF;
+    margin-top: -5px;
+}
+.judul-galeri{
+    font-size: 30px;
+    font-family:'Fredoka One',cursive ;
+    margin-left: 50px;
+    max-width: 30%;
+    margin-right: 30px;
+}
+
+.judul-galeri .penjelasan-galeri{
+    margin-top: 7px;
+    font-size: 14px;
+}
+.galeri hr{
+    width: 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-align: center;
+}
+.galeri{
+    display: flex;
+}
+.isi-foto{
+    max-width: 70%;
+}
+.isi-foto1 img,.isi-foto2 img{
+    max-width: 160px;
+    margin: 5px;
+}
+
+.isi-foto1, .isi-foto2{
+    display: flex;
+}
+.poster{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.poster button{
+    background-color: #6994CF;
+    border-radius: 20px;
+    font-family: 'Fredoka One',cursive;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    box-shadow:  4px 4px 14px #b3b3b3,
+                -3px -3px 14px #ffffff;
+}
+.gambar-poster img{
+max-width: 50%;
+margin-top: 20px;
+}
+.gambar-poster{
+text-align: center;
+}
+.gambar-poster.muncul{
+display: none;
+}
+
+.footer{
+background-color: #6994CF;
+margin-top: 30px;
+padding: 10px;
+}
+.teks-footer{
+text-align: center;
+font-family: 'Fredoka One',cursive;
+font-size: 13px;
+}
+.teks-footer a{
+color: black;
+}
+
+
+@media (max-width:700px){
+ul li{
+    list-style: none;
+    font-size: 13px;
+    align-items: center;
+    margin-right: 18px;
+    margin-top: 12px;
+}
+.nav-title{
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.home{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.tulisan{
+    margin-top: 20px;
+}
+
+.with{
+    font-size: 10px;
+}
+.pengertian{
+    font-size: 9px;
+    margin-top: 8px;
+}
+.bioplastik{
+    font-size: 23px;
+}
+.gambar-paus img{
+    width: 200px;
+    height: 200px;
+}
+.lapisan-dua{
+    margin: 0;
+}
+.tulisan button{
+    width: 80px;
+    padding: 8px;
+    margin-top: 15px;
+    border-radius: 17px;
+}
+.tulisan button:hover{
+    cursor: pointer;
+    
+}
+.tulisan1{
+    margin-top: -10px;
+}
+.tulisan1 h5{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Fredoka One',cursive;
+    margin-bottom: 10px;
+   
+}
+.tulisan1 .definisi-bioplastik{
+    font-size: 12px;
+    text-align: center;
+    margin: 20px;
+}
+.gelombang-bawah{
+    margin-top: -21px;
+}
+hr {
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .kelebihan-kekurangan{
+    padding: 10px;
+    display: block;
+  }
+  .kelebihan,.kekurangan{
+    max-width: 60%;
+  }
+  .judul-kelebihan,.judul-kekurangan{
+    font-size: 15px;
+    margin-bottom: 7px;
+    padding: 10px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+
+  .isi-kelebihan,.isi-kekurangan{
+    font-size: 12px;
+    list-style: none;
+    padding: 5px;
+  }
+  .isi-kelebihan li,.isi-kekurangan li{
+    margin-top: 5px;
+  }
+  .kelebihan{
+    margin-bottom: 20px;
+  }
+  .isi-kelebihan li span,.isi-kekurangan li span{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+  }
+
+.kekurangan{
+    float: right;
+}  
+.manfaat{
+    display: flex;
+    margin-top: -8px;
+    padding: 10px;
+}
+.manfaat .judul-manfaat{
+    max-width: 40%;
+    font-size: 20px;
+}
+.manfaat hr{
+    width: 40px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 5px;
+}
+.manfaat .judul-manfaat span{
+    font-size: 25px;
+}
+
+.manfaat .isi-manfaat{
+    padding: 10px;
+}
+.manfaat .isi-manfaat li{
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+.manfaat .isi-manfaat li span{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 3px;
+}
+.isi-team{
+    display: flex;
+}
+.judul-team{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.gambar-team img{
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.nama-team{
+    text-align: center;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.kotak-team{
+    max-width: 30%;
+    margin: 10px;
+}
+
+.team hr{
+    width: 80px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.logo-instagram img{
+    width: 20px;
+    margin-top: 10px;
+}
+.logo-instagram{
+    text-align: center;
+}
+.galeri{
+    margin-top: -5px;
+}
+.judul-galeri{
+    font-size: 25px;
+    margin-left: 20px;
+    max-width: 30%;
+    margin-right: 30px;
+}
+
+.judul-galeri .penjelasan-galeri{
+    margin-top: 7px;
+    font-size: 9px;
+}
+.galeri hr{
+    width: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+.galeri{
+    display: flex;
+}
+.isi-foto{
+    max-width: 70%;
+}
+.isi-foto1 img,.isi-foto2 img{
+    max-width: 120px;
+    margin: 5px;
+}
+
+.isi-foto1, .isi-foto2{
+    display: flex;
+    overflow-x: scroll;
+}
+.poster{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.poster button{
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+}
+.gambar-poster img{
+max-width: 80%;
+margin-top: 20px;
+}
+.gambar-poster{
+text-align: center;
+}
+.gambar-poster.muncul{
+display: none;
+}
+
+.footer{
+margin-top: 30px;
+padding: 10px;
+}
+.teks-footer{
+text-align: center;
+}
+
+}
+@media(max-width:800px)and (min-width:600px) {
+    .gambar-paus img{
+        width: 300px;
+        height: 300px;
+    }
+    .lapisan-dua{
+        margin: 0;
+    }
+}
+@media(max-width:1000px)and (min-width:700px) {
+    .isi-foto1, .isi-foto2{
+        overflow-x: scroll;
+    }
+}
+
+@media(max-width:405px){
+    .gelombang-bawah-galeri{
+        margin-top: -2px;
+    }
+    .manfaat .isi-manfaat{
+        font-size: 13px;
+    }
+}
